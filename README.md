@@ -1,11 +1,11 @@
 # aws-Zero-to-hero
 
-![AWS](https://img.shields.io/badge/AWS-Learning-orange?logo=amazonaws&logoColor=white)
-![DevOps](https://img.shields.io/badge/DevOps-Journey-blue?logo=devops&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-InProgress-purple?logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Learning-2496ED?logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-In%20Progress-orange?logo=amazonaws&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-Planned-blue?logo=devops&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-Planned-purple?logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Planned-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Planned-326CE5?logo=kubernetes&logoColor=white)
-![Status](https://img.shields.io/badge/Progress-Active-success)
+![Status](https://img.shields.io/badge/Learning-Active-success)
 
 # 🚀 AWS DevOps Zero to Hero — My Learning Journey
 
