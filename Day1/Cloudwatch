@@ -1,0 +1,158 @@
+1️⃣ What is Amazon CloudWatch?
+Amazon CloudWatch is a monitoring and observability service provided by Amazon Web Services (AWS).
+
+It helps you:
+
+1)Monitor AWS resources
+2)Monitor applications
+3)Collect logs
+4)Set alarms
+5)Track performance
+6)Automatically react to changes
+
+Think of it as:
+🧠 “The Health Monitoring System of your AWS Infrastructure”
+
+2️⃣ Why CloudWatch is Important in DevOps?
+Build → Deploy → Monitor → Improve
+
+CloudWatch helps in the Monitor phase.
+
+Without monitoring:
+You won’t know if server CPU is high
+You won’t know if app crashed
+You won’t know if traffic suddenly increased
+You won’t know if users are facing errors
+
+3️⃣ Core Components of CloudWatch
+🔹 A) Metrics
+Metrics are numerical data points over time.
+
+Examples:
+CPU Utilization
+Memory Usage
+Disk I/O
+Network In/Out
+Request Count
+
+Example:
+If you are using Amazon EC2,
+CloudWatch automatically collects:
+
+CPUUtilization
+NetworkIn
+NetworkOut
+DiskReadOps
+DiskWriteOps
+
+🔹 B) Custom Metrics
+You can send your own metrics using:
+
+boto3 (like your Flask app)
+AWS CLI
+SDK
+Namespace: OnlineStore
+MetricName: PageViews
+
+🔹 C) Logs (CloudWatch Logs)
+CloudWatch stores logs from:
+
+EC2
+Lambda
+ECS
+Application logs
+System logs
+
+If using
+AWS Lambda
+
+Logs automatically go to CloudWatch.
+
+
+🔹 D) Alarms
+Alarms trigger action when condition is met.
+CPUUtilization > 40%
+for 2 minutes
+
+When triggered:
+
+Send email
+Send SMS
+Auto scale
+Trigger Lambda
+Alarms use:
+
+📩 Amazon Simple Notification Service
+
+Service
+🔹 E) Dashboards
+
+Dashboards allow:
+Custom monitoring screen
+Multiple graphs
+Multi-service view
+Example Dashboard:
+EC2 CPU
+RDS connections
+Lambda errors
+API latency
+
+
+🔹 F) Events (Now EventBridge)
+CloudWatch Events is now:
+
+⚡ Amazon EventBridge
+
+Used for:
+Scheduled tasks (cron jobs)
+Trigger automation
+React to AWS state changes
+
+Example:
+When EC2 stops → Send notification.
+
+🔹 G) CloudWatch Agent
+By default EC2 collects only basic metrics.
+
+If you want:
+Memory usage
+Disk space
+Custom logs
+You must install CloudWatch Agent on EC2.
+
+ CloudWatch vs Grafana
+You asked earlier.
+
+CloudWatch:
+
+AWS native
+Integrated
+Easy
+
+Grafana:
+
+Advanced visualization
+Multi-cloud support
+Better dashboards
+
+Amazon CloudWatch is a monitoring and observability service in AWS that collects metrics, 
+logs, and events, and triggers automated actions using alarms and dashboards.
+
+
+
+*************************************************Linux*********************************************
+
+
+What is /dev/null?
+/dev/null is a special file in Linux.
+
+It is called:
+🗑️ “Black hole of Linux”
+Anything you send to /dev/null gets deleted immediately.
+
+Example:
+echo "Hello" > /dev/null
+nothing will appear.
+
+
+make this attractive i want to add this in github
